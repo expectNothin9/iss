@@ -1,0 +1,25 @@
+{
+  "name": "iss",
+  "version": "1.0.0",
+  "description": "The International Space Station (ISS) is a modular space station (habitable artificial satellite) in low Earth orbit.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expectNothin9/iss.git"
+  },
+  "author": "Expect Nothin9 <expect.nothin9@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
