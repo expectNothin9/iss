@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: simple-api
+  labels:
+    app: simpleApi
+spec:
+  containers:
+    - name: simple-api-container
+      image: expectnothin9/iss
+      ports:
+        - containerPort: 8080
